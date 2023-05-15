@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(19, 36, 78);
+}
+.calc{
+display: grid;
+grid-template-columns: repeat(4),60px;
+
+
+}
+input{
+    border: none;
+    height: 100px;
+    text-align: end;
+    font-size: 35px;
+    padding: 0 15px;
+    font-family: monospace;
+
+}
+button{
+    
+    width: 120px;
+    height: 60px;
+    background: rgb(13, 12, 12);
+    border: non;
+    outline: non;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    font-family: monospace;
+
+
+}
+
+button:active{
+    background-color: rgb(221, 0, 255);
+}

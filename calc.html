@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./calc.css" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="calc">
+      <input type="text" placeholder="0" style="grid-column: span 4" id="inp" />
+      <button onclick="cler()" style="background-color: rgb(145, 168, 231)">
+        cl
+      </button>
+      <button onclick="dele()">del</button>
+      <button onclick=" writeNump('%')">%</button>
+      <button onclick=" writeNump('/')">/</button>
+      <button onclick=" writeNump('9')">9</button>
+      <button onclick=" writeNump('8')">8</button>
+      <button onclick=" writeNump('7')">7</button>
+      <button onclick=" writeNump('*')">*</button>
+      <button onclick=" writeNump('6')">6</button>
+      <button onclick=" writeNump('5')">5</button>
+      <button onclick=" writeNump('4')">4</button>
+      <button onclick=" writeNump('+')">+</button>
+      <button onclick=" writeNump('3')">3</button>
+      <button onclick=" writeNump('2')">2</button>
+      <button onclick=" writeNump('1')">1</button>
+      <button onclick=" writeNump('-')">-</button>
+      <button onclick=" writeNump('0')">0</button>
+      <button onclick=" writeNump('.')">.</button>
+      <button onclick=" writeNump('**')">**</button>
+      <button
+        style="width: 120px; background-color: rgb(235, 33, 63)"
+        onclick=" calc()"
+      >
+        =
+      </button>
+    </div>
+
+    <script src="calc.js"></script>
+  </body>
+</html>
